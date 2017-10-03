@@ -90,7 +90,8 @@ h1, h2, h3, h4, h5, p {
        grid-template-areas:
        "aside1 main main main main aside2"
        "main2 main2 main2 main2 main2 main2"
-       "box1 box2 box3 box4 box5 box6";
+       "box1 box2 box3 box4 box5 box6"
+       "box7 box8 box9 box10 box11 box12";
        align-items: center;}
 
 .main { grid-area: main;
@@ -120,7 +121,6 @@ h1, h2, h3, h4, h5, p {
 
 .box { padding: 50px;
       text-align: center;
-      background-color: lightgrey;
       font-family: 'Nexa',sans-serif;
       font-weight: 600;
       font-size: 15px;
@@ -143,6 +143,24 @@ h1, h2, h3, h4, h5, p {
 
 .box6 { grid-area: box6;
        background-color: #ffffff;}
+
+.box7 { grid-area: box7;
+    background-color: #ffffff; }
+
+.box8 { grid-area: box8;
+    background-color: #ffffff; }
+
+.box9 { grid-area: box9;
+    background-color: #ffffff;}
+
+.box10 { grid-area: box10;
+    background-color: #ffffff;}
+
+.box11 { grid-area: box11;
+    background-color: #ffffff;}
+
+.box12 { grid-area: box12;
+    background-color: #ffffff;}
 
 .fa.fa-users{ font-size: 55px; color: grey;
 margin-bottom: 10px;}

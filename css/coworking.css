@@ -162,17 +162,14 @@ h1, h2, h3, h4, h5, p {
 .box12 { grid-area: box12;
     background-color: #ffffff;}
 
-.fa.fa-users{ font-size: 55px; color: grey;
+.fa.fa{ font-size: 55px; color: grey;
 margin-bottom: 10px;}
 
-.fa.fa-laptop{ font-size: 55px; color: grey;
-margin-bottom: 10px;}
+.fa.fa-facebook, .fa.fa-linkedin, .fa.fa-twitter{
+    color: white;
+    font-size: 22px;
 
-.fa.fa-object-group{ font-size: 55px; color: grey;
-margin-bottom: 10px;}
-
-.fa.fa-wifi{ font-size: 55px; color: grey;
-margin-bottom: 10px;}
+}
 
 footer { width: 100%; height: 150px; background-color: white;
 font-family: 'Nexa',sans-serif; text-align: center;}

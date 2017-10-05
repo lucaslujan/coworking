@@ -122,9 +122,10 @@ h1, h2, h3, h4, h5, p {
 .box { padding: 50px;
       text-align: center;
       font-family: 'Nexa',sans-serif;
-      font-weight: 600;
+      font-weight: 500;
       font-size: 15px;
-      line-height: 18px;}
+      line-height: 18px;
+     }
 
 .box1 { grid-area: box1;
         background-color: #ffffff; }

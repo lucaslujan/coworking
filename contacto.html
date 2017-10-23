@@ -1,33 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Coworking CF</title>
-    <link rel="stylesheet" href="css/coworking.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <script src="https://use.fontawesome.com/ebc2a44ead.js"></script>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
-     <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/grid.css">
 
+
+    <title>Coworking Salta</title>
+   
+    <script src="https://use.fontawesome.com/ebc2a44ead.js"></script>
 </head>
 <body>
-<section class="superior">
-    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-</section>
-
-<header class="header">
-    <img class="logo" src="img/logo.png">
-    <div class="links">
+<div class="container">
+    <header class="header">
+        <img class="logo" src="img/logo.png">
+        <div class="links">
         <a href="index.html">HOME</a>
         <a href="coworking.html">QUE ES EL COWORKING</a>
         <a href="servicios.html">NUESTROS SERVICIOS</a>
@@ -35,61 +30,131 @@
         <a href="clientes.html">CLIENTES</a>
         <a href="contacto.html">CONTACTO</a>
     </div>
-</header>
-<div class="container">
-    <div class="main">
-      <p>COMPLETÁ NUESTRO FORMULARIO Y RESPONDEMOS TUS DUDAS</p>
-<div class="row">
-    <form class="col s12">
-      <div class="row">
-        <div class="input-field col s6">
-          <i class="material-icons prefix">account_circle</i>
-          <input id="icon_prefix" type="text" class="validate">
-          <label for="icon_prefix">Nombre</label>
-        </div>
-        <div class="input-field col s6">
-          <i class="material-icons prefix">account_circle</i>
-          <input id="icon_telephone" type="tel" class="validate">
-          <label for="icon_telephone">Apellido</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s6">
-          <i class="material-icons prefix">mailru</i>
-          <input id="icon_prefix" type="text" class="validate">
-          <label for="icon_prefix">Mail</label>
-        </div>
-        <div class="input-field col s6">
-          <i class="material-icons prefix">phone</i>
-          <input id="icon_telephone" type="tel" class="validate">
-          <label for="icon_telephone">Teléfono</label>
-        </div>
-      </div>
-       <div class="row">
-    <form class="col s12">
-      <div class="row">
-        <div class="input-field col s12">
-          <textarea id="textarea1" class="materialize-textarea"></textarea>
-          <label for="textarea1">Comentarios</label>
-        </div>
-      </div>
-    </form>
-  </div>
-  <button class="btn waves-effect waves-light" type="submit" name="action">ENVIAR
-    <i class="material-icons right">send</i>
-  </button>
+    </header>
+    <nav>
+    </nav>
+    <main>
+ <h1>CONTACTANOS</h1>
+   <div id="contact-form">
+  <form>
+    <label for="name">Nombre</label>
+    <input
+      type="text"
+      name="name"
+      id="name"
+      class="contact-input"
+      placeholder="Nombre"
+      required>
 
-    </form>
-  </div>
-    </div>
-    <div class="aside1"></div>
-    <div class="aside2"></div>
+
+    <label for="email">Email</label>
+    <input 
+      type="email"
+      name="email"
+      id="email"
+      class="contact-input"
+      placeholder="Email">
+
+    <label for="phone">Teléfono</label>
+    <input 
+      type="text"
+      name="phone"
+      id="phone"
+      class="contact-input"
+      placeholder="Teléfono">
+
+    <label for="company">Empresa</label>
+    <input 
+      type="text"
+      name="company" 
+      id="company"
+      class="contact-input"
+      placeholder="Empresa">
+
+    <label for="message">En qué podemos ayudarte?</label>
+    <textarea 
+      name="message" 
+      id="message" 
+      class="contact-input"  
+      cols="24" 
+      rows="1" 
+      placeholder="En qué podemos ayudarte?"></textarea>
+
+    <label for="referral">Cómo nos conociste?</label>
+    <textarea 
+      name="referral"
+      id="referral"
+      class="contact-input"
+      cols="24" 
+      rows="1"
+      placeholder="Cómo nos conociste?"></textarea>
+
+    <button id="send-btn" name="button" type="submit">Enviar</button>
+  </form>
 </div>
-<footer>
-<p>Centro de negocios SLA. Copyright 2017.</p>
-</footer> 
-<!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+<div class="env-body">
+  <div class="arrow-down"></div>
+  <div class="arrow-down-inner"></div>
+  <div class="note"></div>
+</div>
+    </main>
+
+    <aside>
+        <!-- Sidebar / Ads -->
+    </aside>
+
+    <footer>
+     <div class="logo"><img src="img/logobyn.png" alt=""></div>
+    <div class="col1"><b>Encontranos acá</b><br>
+        Pje. Arteaga 1157, Salta. <br>
+        Argentina.   <br></div>
+    <div class="col2"><b>También acá</b><br>
+    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+    </footer>
+</div>
+<script>
+  const contactInputs = document.querySelectorAll('.contact-input');
+
+function labelActive() {
+  this.previousElementSibling.classList.add('contact-label-active');
+  this.removeAttribute('placeholder');
+}
+
+function labelInactive() {
+  if (this.value.length === 0) {
+    this.previousElementSibling.classList.remove('contact-label-active'); 
+  }  
+  this.setAttribute('placeholder', this.previousElementSibling.innerHTML);
+}
+
+contactInputs.forEach(input => {
+  input.addEventListener('focus', labelActive);
+  input.addEventListener('blur', labelInactive);  
+}); 
+
+
+// page slide out animation and confirmation
+const page = document.querySelector('#contact-form');
+const contactForm = page.querySelector('form');
+const sendBtn = page.querySelector('#send-btn');
+const envelope = document.querySelector('.env-body');
+const note = document.querySelector('.note');
+
+function sendMailer(e) {
+  e.preventDefault();
+  page.classList.add('form-sent');
+  envelope.classList.add('confirm-active');
+  note.innerHTML = "Your message is<br><span class='bigger'>on it's way!</span>";
+}
+
+contactForm.addEventListener('submit', sendMailer);
+
+
+</script>
 </body>
 </html>

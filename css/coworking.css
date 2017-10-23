@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, p {
        padding-top: 30px;
        height: auto;
        display: grid;
-       grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
        grid-template-rows: auto;
        grid-template-areas:
        "aside1 main main main main aside2"
@@ -210,4 +210,9 @@ footer p{
     font-size: 12px;
     color: white;
     padding-top: 20px;
-    }
+}
+
+
+
+}
+

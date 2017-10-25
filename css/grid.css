@@ -53,7 +53,7 @@
             flex-direction: row;
             }
         .logo{
-            width: 200px;
+            width: 280px;
             height: auto;
             margin: 50px 0 20px 30px;}
 
@@ -61,7 +61,7 @@
          /*flex*/
              display: flex;
              flex-wrap: wrap;
-             padding: 50px 10px 0 0;
+             padding: 70px 10px 0 0;
              margin-right: 80px;
          }
 
@@ -169,7 +169,7 @@
          .superior span{
           font-family: 'Nexa',sans-serif;
           font-size: 12px;
-          padding-top: 10px;
+          padding: 10px 10px 0 0;
          }
 
         /* Aside*/  
@@ -189,6 +189,9 @@
         }
         footer .logo{
           flex-basis: 30%;
+        }
+        footer .logo img{
+          width: 250px; height: auto;
         }
         footer .col1{
           padding: 100px 0 0 50px;

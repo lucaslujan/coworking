@@ -114,7 +114,25 @@
         main p{ font-size: 25px;
          font-family: 'Nexa', sans-serif;
          font-weight: 300; 
-         line-height: 30px;}
+         line-height: 30px;
+         text-align:justify;  
+        text-justify:distribute;}
+
+         main p.quienes{
+         font-size: 18px;
+         font-family: 'Nexa', sans-serif;
+         font-weight: 500; 
+         line-height: 25px;
+         text-align:justify;  
+         text-justify:distribute;
+         }
+
+         main a {
+          text-decoration: none;
+          color: black;
+          font-family: 'Nexa', sans-serif;
+          font-weight: 600;
+         }
 
         main h1{font-family: 'Nexa', sans-serif;
          font-size: 50px;

@@ -156,6 +156,7 @@
           flex-wrap: wrap;
           justify-content: center;
           margin-bottom: 50px;
+          margin: 0 auto;
         }
 
           .box { padding: 50px;
@@ -188,7 +189,6 @@
 /* Icon set - http://ionicons.com */
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,500);
 .snip1323 {
-  font-family: 'Raleway', Arial, sans-serif;
   position: relative;
   float: left;
   overflow: hidden;
@@ -196,9 +196,12 @@
   min-width: 230px;
   max-width: 315px;
   width: 100%;
-  color: #ffffff;
+  color: gray;
   text-align: center;
-  background-color: #000000;
+}
+.snip1323 p{
+  text-align: center;
+
 }
 .snip1323 * {
   -webkit-box-sizing: border-box;
@@ -207,8 +210,8 @@
   transition: all 0.35s 0.5s ease;
 }
 .snip1323 img {
-  max-width: 100%;
-  vertical-align: top;
+  margin: 0 auto;
+  vertical-align: left;
 }
 .snip1323 figcaption {
   position: absolute;
@@ -222,15 +225,13 @@
   position: absolute;
   margin: 0;
   width: 100%;
-  -webkit-transform: translate(-25%, -50%);
-  transform: translate(-25%, -50%);
   left: 0;
   top: 50%;
   opacity: 0;
-  padding: 0 20px;
   font-weight: 300;
   text-transform: uppercase;
 }
+
 .snip1323 .icons {
   position: absolute;
   bottom: 0;
@@ -259,9 +260,9 @@
   top: 0;
   left: 0;
   content: '';
-  background-color: #9b5212;
+  background-color: gray;
   z-index: 1;
-  opacity: 0.4;
+  opacity: 1;
   -webkit-transition: all 0.35s 0.3s ease-in;
   transition: all 0.35s 0.3s ease-in;
 }
@@ -283,7 +284,7 @@
 }
 .snip1323:hover img,
 .snip1323.hover img {
-  opacity: 0.4;
+  opacity: 1;
 }
 .snip1323:hover h2,
 .snip1323.hover h2,

@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ae0fed2-5f5a-41ee-844a-aa7b291b65f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/secretaria.jpg" afterPath="$PROJECT_DIR$/img/secretaria.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientes.html" afterPath="$PROJECT_DIR$/clientes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacto.html" afterPath="$PROJECT_DIR$/contacto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/grid.css" afterPath="$PROJECT_DIR$/css/grid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/servicios.html" afterPath="$PROJECT_DIR$/servicios.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coworking.html" afterPath="$PROJECT_DIR$/coworking.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,28 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contacto.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contacto.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="69" column="10" lean-forward="false" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clientes.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clientes.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="72" column="115" lean-forward="false" selection-start-line="72" selection-start-column="115" selection-end-line="72" selection-end-column="115" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,7 +49,6 @@
         <option value="$PROJECT_DIR$/grilla.css" />
         <option value="$PROJECT_DIR$/quienes.html" />
         <option value="$PROJECT_DIR$/donde.html" />
-        <option value="$PROJECT_DIR$/coworking.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/send_form_email.php" />
         <option value="$PROJECT_DIR$/contacto_2.html" />
@@ -83,6 +56,7 @@
         <option value="$PROJECT_DIR$/servicios.html" />
         <option value="$PROJECT_DIR$/contacto.html" />
         <option value="$PROJECT_DIR$/clientes.html" />
+        <option value="$PROJECT_DIR$/coworking.html" />
       </list>
     </option>
   </component>
@@ -194,18 +168,17 @@
       <workItem from="1509542282013" duration="1390000" />
       <workItem from="1509726382473" duration="2000" />
       <workItem from="1509726446494" duration="738000" />
-      <workItem from="1509728333454" duration="2551000" />
+      <workItem from="1509728333454" duration="3982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84184000" />
+    <option name="totallyTimeSpent" value="85615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -434,13 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coworking.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="106" column="138" lean-forward="false" selection-start-line="106" selection-start-column="138" selection-end-line="106" selection-end-column="138" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/NiceSimpleContactForm/NiceSimpleContactForm/contactthanks.php" />
     <entry file="file://$USER_HOME$/Desktop/NiceSimpleContactForm/NiceSimpleContactForm/contactengine.php" />
     <entry file="file://$PROJECT_DIR$/css/coworking.css">
@@ -492,6 +458,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/clientes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contacto.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -500,11 +474,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientes.html">
+    <entry file="file://$PROJECT_DIR$/coworking.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="72" column="115" lean-forward="false" selection-start-line="72" selection-start-column="115" selection-end-line="72" selection-end-column="115" />
-          <folding />
+        <state relative-caret-position="495">
+          <caret line="96" column="20" lean-forward="true" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#video#1;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

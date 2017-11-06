@@ -39,8 +39,11 @@
             grid-template-rows: auto 1fr auto;
             grid-gap: 10px;
             height: 100vh;
-            }
+        }
           
+
+         /* menu superior*/
+
          .superior{
          display: flex;
          position: absolute;
@@ -54,14 +57,16 @@
          padding: 25px;
          font-weight: 600;}
 
-        .superior i {color: white;
-               margin-right: 10px;}
+        .superior i {
+         color: white;
+         margin-right: 10px;}
 
          .superior span{
          font-family: 'Nexa',sans-serif;
          font-size: 12px;
          padding: 10px 10px 0 0;
          }
+
 
          /* header*/
 
@@ -90,15 +95,16 @@
          }
 
          .links a{
-         color: gray; text-decoration: none;
+         color: gray;
+         text-decoration: none;
          margin-left: 20px;
          font-family: 'Nexa', sans-serif;
          font-size: 12px;
          font-weight: 600;
-          }
+         }
 
          .links a:hover{
-          color:#EF7521;
+         color:#EF7521;
          }
 
 
@@ -111,12 +117,14 @@
         main {
             grid-area: content;
         }
-        main p{ font-size: 25px;
+        main p{
+         font-size: 25px;
          font-family: 'Nexa', sans-serif;
          font-weight: 300; 
          line-height: 30px;
          text-align:justify;  
-        text-justify:distribute;}
+         text-justify:distribute;
+         }
 
          main p.quienes{
          font-size: 18px;
@@ -146,8 +154,12 @@
           text-align:justify;  
           text-justify:distribute;
           font-size: 28px;
-          padding: 50px;}
-
+          padding: 50px;
+        }
+        main h3{font-family: 'Nexa', sans-serif;
+         font-size: 30px;
+         text-align: left;
+         color: black; }
          
          /* Servicios */
         .servicios{
@@ -155,18 +167,20 @@
           flex-direction: row;
           flex-wrap: wrap;
           justify-content: center;
-          margin-bottom: 50px;
           margin: 0 auto;
         }
 
-          .box { padding: 50px;
-          text-align: center;
-          font-family: 'Nexa',sans-serif;
-          font-weight: 600;
-          font-size: 15px;
-          line-height: 22px;
-          align-items: center;
-         }
+        .servicios h2{
+        font-size: 30px;
+        color:#EF7521;
+        padding: 0;
+        background-color: gray;
+        }
+
+        .servicios p{
+          font-size: 20px;
+          color: black;
+        }
 
          /* contacto foxyform */
 
@@ -214,7 +228,7 @@
           height: 100%;
           width: 100%;
           top: 0;
-          left: -16%;
+          left: 0;
           z-index: 1;
         }
         .snip1323 h2 {
@@ -305,9 +319,6 @@
           -webkit-transition: all 0.35s 0.2s ease-in;
           transition: all 0.35s 0.2s ease-in;
         }
-
-
-
 
 
 

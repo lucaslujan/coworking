@@ -92,24 +92,24 @@
 }
 
 .button-blue{
-	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	font-family: 'Nexa', sans-serif;
 	float:left;
 	width: 100%;
-	border:#EF7521 solid 4px;
+	border:gray 1 solid 1px;
 	cursor:pointer;
 	background-color:#EF7521;
 	color:white;
-	font-size:24px;
+	font-size:20px;
 	padding-top:22px;
 	padding-bottom:22px;
 	transition: all 0.3s;
   margin-top:-4px;
-  font-weight:700;
+  font-weight:400;
 }
 
 .button-blue:hover{
-	background-color: rgba(0,0,0,0);
-	color: #0493bd;
+	background-color: gray;
+	color: black;
 }
 	
 .montform  .submit:hover {

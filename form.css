@@ -13,14 +13,14 @@
 #form-div {
 	padding-bottom:50px;
 	width: 100%;
-  margin-top:30px;
-  border-radius: 7px;
+  	margin-top:30px;
+ 	border-radius: 7px;
   
 }
 
 .montform .feedback-input {
 	color:#EF7521;
-	font-family: 
+	font-family: 'Nexa', sans-serif;
   	font-weight:500;
 	font-size: 18px;
 	border-radius: 0;

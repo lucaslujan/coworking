@@ -335,7 +335,7 @@
         main h3{font-family: 'Nexa', sans-serif;
          font-size: 30px;
          text-align: left;
-         color: black; }
+         color: #EF7521; }
          
          /* Servicios */
         .servicios{
@@ -347,14 +347,20 @@
         }
 
         .servicios h2{
-        font-size: 30px;
-        color:#EF7521;
-        padding: 0;
-        background-color: gray;
+         font-size: 30px;
+         color:#EF7521;
+         padding: 0;
+            background-color: gray;
+        }
+        .servicios h3{
+            font-size: 30px;
+            color:#EF7521;
+            padding: 0;
         }
 
         .servicios p{
           font-size: 20px;
+          text-align: left;
           color: black;
         }
 
@@ -576,9 +582,9 @@
         footer .col3{
           flex-basis: 15%;
           text-align: left;
-          padding: 60px 0 0 0;
+          padding: 150px 0 0 0;
           font-family: 'Nexa', sans-serif;
-          font-size: 14px;
+          font-size: 12px;
           line-height: 22px;
         }
         footer .col3 a{

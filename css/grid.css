@@ -12,7 +12,7 @@
         @font-face {
                font-family: 'Nexa';
                src: url('../fonts/NexaBold.eot');
-               src: url('../fonts/NexaBold.eot?#iefix') format('embedded-opentype'),
+               src: url('../fonts/NexaBold.eot') format('embedded-opentype'),
                url('../fonts/NexaBold.woff') format('woff'),
                url('../fonts/NexaBold.ttf') format('truetype');
                font-weight: bold;
@@ -22,7 +22,7 @@
         @font-face {
                font-family: 'Nexa';
                src: url('../fonts/NexaLight.eot');
-               src: url('../fonts/NexaLight.eot?#iefix') format('embedded-opentype'),
+               src: url('../fonts/NexaLight.eot') format('embedded-opentype'),
                url('../fonts/NexaLight.woff') format('woff'),
                url('../fonts/NexaLight.ttf') format('truetype');
                font-weight: 300;
@@ -332,10 +332,7 @@
           font-size: 28px;
           padding: 50px;
         }
-        main h3{font-family: 'Nexa', sans-serif;
-         font-size: 30px;
-         text-align: left;
-         color: #EF7521; }
+
          
          /* Servicios */
         .servicios{
@@ -363,179 +360,186 @@
           text-align: left;
           color: black;
         }
-        
+
+        .otros{
+            width: 100%;
+            font-family: 'Nexa', sans-serif;
+            font-size: 20px;
+            text-align: center;
+            font-weight: 500;
+            padding: 40px;
+            line-height: 14px;
+        }
+        .otros h3{
+            color:#EF7521;
+            font-weight: 500;
+        }
+        .otros span{
+            font-size: 17px;
+        }
+
+        /* Tarifas */
+        h1 > span {
+          font-size: 0.7em;
+          color: black;
+          font-weight: 500;
+        }
+
+        h5 {
+          opacity: 1;
+          font-size: 1.6em;
+          margin: 0;
+          text-align: left;
+        }
+
+        p span {
+          font-size: 1em;
+        }
+
+        hr.tarifas {
+          border: 1px solid rgba(0,0,0,0.05);
+        }
+
+        #content {
+          width: 80%;
+          margin: 0 auto;
+        }
+
+        .main-header {
+          margin: 40px 0;
+        }
+
+        /*----  CARDS  ---*/
+
+        .card {
+          position: relative;
+          background-color: lightgray;
+          box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+          border-radius: 3px;
+          width: 31%;
+          float: left;
+          font-size: 18px;
+          margin-right: 3%;
+          margin-bottom: 40px;
+
+          z-index: 10;
+
+          transition: all 300ms ease-out;
+        }
+
+        .card:hover {
+          transform: scale(1.03);
+          box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1);
+        }
+
+        .card-content > h1{
+          font-size: 1.4em;
+            color: black;
+        }
+        .card-content {
+          padding: 30px;
+        }
+        .card.special .card-content {
+          padding-top: 0;
+        }
+
+        .card-header {
+          margin-bottom: 8px;
+          background-color: #444444;
+          padding: 8px;
+          border-radius: 3px 3px 0 0
+        }
+
+        .card-header2 {
+            margin-bottom: 8px;
+            background-color: #6BC7E5;
+            padding: 8px;
+            border-radius: 3px 3px 0 0
+        }
+
+        .card-header3 {
+            margin-bottom: 8px;
+            background-color: #E96D6D;
+            padding: 8px;
+            border-radius: 3px 3px 0 0
+        }
 
 
 
-h1 > span {
-  font-size: 0.6em;
-}
+        .card-header > p {
+          color: #FFF;
+          margin: 0;
+          font-size: 0.7em;
+          font-weight: bold;
+        }
 
-h5 {
-  opacity: 1;
-  font-size: 1.6em;
-  margin: 0;
-  text-align: left;
-}
+        .card-info > p {
+          text-align: left;
+          font-size: 0.9em;
+          font-weight: 600;
+        }
 
-p span {
-  font-size: 1em;
-}
+        .card:last-child {
+          margin-right: 0;
+        }
 
-hr.tarifas {
-  border: 1px solid rgba(0,0,0,0.05);
-}
+        /*----------------*/
+        /*SPECIAL COLORING*/
+        /*----------------*/
 
-#content {
-  width: 80%;
-  margin: 0 auto;
-}
+        .card:nth-child(3) .card-info span {
+          color: #E96D6D;
+        }
 
-.main-header {
-  margin: 40px 0;
-}
+        .card:nth-child(3) button {
+          background-color: #E96D6D;
+          box-shadow: 0px 3px 0px 0px #C75D5D;
+        }
 
-/*----------------*/
-/*----  CARDS  ---*/
-/*----------------*/
+        .card:nth-child(2) .card-info span {
+          color: #6BC7E5;
+        }
 
-.card {
-  position: relative;
-  background-color: lightgray;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
-  border-radius: 3px;
-  width: 31%;
-  float: left;
-  font-size: 18px;
-  margin-right: 3%;
-  margin-bottom: 40px;
+        .card:nth-child(2) button {
+          background-color: #6BC7E5;
+          box-shadow: 0px 3px 0px 0px #5DADC7;
+        }
 
-  z-index: 10;
+        .card:nth-child(1) .card-info span {
+          color: #000000;
+        }
 
-  transition: all 300ms ease-out;
-}
+        .card:nth-child(1) button {
+          background-color: #444444;
+          box-shadow: 0px 3px 0px 0px #000000;
+        }
 
-.card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1);
-}
+        /*----------------*/
+        /*---  BUTTON  --*/
+        /*----------------*/
 
-.card-content > h1{
-  font-size: 1.4em;
-}
-.card-content {
-  padding: 30px;
-}
-.card.special .card-content {
-  padding-top: 0;
-}
-
-.card-header {
-  background-color: gray;
-  margin-bottom: 8px;
-  padding: 8px;
-  border-radius: 3px 3px 0 0
-}
-
-.card-header > p {
-  color: #FFF;
-  margin: 0;
-  font-size: 0.7em;
-  font-weight: bold;
-}
-
-.card-info > p {
-  text-align: left;
-  font-size: 0.9em;
-}
-
-.card:last-child {
-  margin-right: 0;
-}
-
-/*----------------*/
-/*SPECIAL COLORING*/
-/*----------------*/
-
-.card:nth-child(3) .card-info span {
-  color: #E96D6D;
-}
-
-.card:nth-child(3) button {
-  background-color: #E96D6D;
-  box-shadow: 0px 3px 0px 0px #C75D5D;
-}
-
-.card:nth-child(2) .card-info span {
-  color: #6BC7E5;
-}
-
-.card:nth-child(2) button {
-  background-color: #6BC7E5;
-  box-shadow: 0px 3px 0px 0px #5DADC7;
-}
-
-.card:nth-child(1) .card-info span {
-  color: #000000;
-}
-
-.card:nth-child(1) button {
-  background-color: #444444;
-  box-shadow: 0px 3px 0px 0px #000000;
-}
-
-/*----------------*/
-/*---  BUTTON  --*/
-/*----------------*/
-
-button {
-  width: 100%;
-  margin-top: 10px;
-  padding: 15px 0;
-  border-radius: 5px;
-  border: none;
-  outline: none;
-
-  color: white;
-  font-weight: bold;
-  font-size: 1em;
-  cursor: pointer;
-}
+        button {
+          width: 100%;
+          margin-top: 10px;
+          border-radius: 5px;
+          border: none;
+          outline: none;
+          font-family: 'Nexa', sans-serif;
+          color: white;
+          font-size: 1em;
+          cursor: pointer;
+        }
 
 
-/*----------------*/
-/*-- ANIMATIONS  -*/
-/*----------------*/
+        /*----------------*/
+        /*-- RESPONSIVE  -*/
+        /*----------------*/
 
-@keyframes swing-left {
-  0% {
-    transform: rotate(-5deg);
-      
-  }
-  100% {
-    transform: rotate(5deg);
-  }
-}
-
-@keyframes swing-right {
-  0% {
-    transform: rotate(-7deg);
-      
-  }
-  100% {
-    transform: rotate(7deg);
-  }
-}
-
-/*----------------*/
-/*-- RESPONSIVE  -*/
-/*----------------*/
-
-@media (max-width: 900px){
-  .card {
-    width: 100%;
-  }
-}
+        @media (max-width: 900px){
+          .card {
+            width: 100%;
+          }
+        }
 
 
 

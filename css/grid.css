@@ -86,15 +86,14 @@
             height: auto;
             margin: 50px 0 20px 30px;}
 
-         .links{
-         /*flex*/
+         .links ul{
              display: flex;
              flex-wrap: wrap;
              padding: 70px 10px 0 0;
              margin-right: 80px;
          }
 
-         .links a{
+         .links ul li a{
          color: gray;
          text-decoration: none;
          margin-left: 20px;
@@ -103,7 +102,7 @@
          font-weight: 600;
          }
 
-         .links a:hover{
+         .links ul li a:hover{
          color:#EF7521;
          }
          /* Slider*/
@@ -985,18 +984,19 @@
               width: 100%;
               flex-direction: column;
             }
-            .links{
+            .links ul{
                 margin: 0;
                 padding: 0;
             }
-            .links a{ width: 100%;
+            .links ul li{ 
+            width: 100%;
             height: 15px;
             text-align: center;
             padding: 25px; 
             margin: 0;
             border-bottom:solid 1px orange;
             }
-           .links a:hover{
+           .links ul li:hover{
             color: black;
             background-color: orange;
             }

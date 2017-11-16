@@ -86,26 +86,86 @@
             height: auto;
             margin: 50px 0 20px 30px;}
 
-         .links{
-         /*flex*/
+         .links ul{
              display: flex;
-             flex-wrap: wrap;
+             flex-direction: row;
+             justify-content: space-around;
              padding: 70px 10px 0 0;
-             margin-right: 80px;
+             flex-wrap: wrap;
+             margin-right: 75px;
+
          }
 
-         .links a{
+         .links li.dropdown{
+          padding-right: 8px;
+         }
+          
+         .links ul li a{
          color: gray;
          text-decoration: none;
-         margin-left: 20px;
+         margin-left: 25px;
          font-family: 'Nexa', sans-serif;
          font-size: 12px;
          font-weight: 600;
          }
 
-         .links a:hover{
+         .links ul li a:hover{
          color:#EF7521;
          }
+
+
+        /*Active dropdown nav item*/
+        .links ul li:hover > a{
+        }
+          
+        /* Dropdown CSS */
+        .links ul li {position: relative;}
+
+        .links ul li ul {
+          position: absolute;
+          background-color: lightgray;
+          min-width: 100%;
+          padding: 10px;
+          text-align: center;
+          z-index: 99;
+          display: none;
+        }
+        .links ul li ul li {
+          display: block;
+          border: 1px solid gray;
+        }
+
+        /* Dropdown CSS */
+        .links ul li ul ul {
+          left: 100%;
+          top:0;
+          margin: 0 auto;
+        }
+
+        /* Active on Hover */
+        .links li:hover > ul {
+          display: block;
+          margin: 0 0 0 20px;
+        }
+
+
+        /* Arrow  */
+        .caret {
+          height: 0;
+          position: absolute;
+          right: -5px;
+          top: 50%;
+          width: 0;
+
+        }
+
+        .caret-down {
+          border-left: 5px solid transparent;
+          border-right: 5px solid transparent;
+          border-top: 5px solid gray;
+        }
+
+
          /* Slider*/
         .slider{
             grid-area: slider;
@@ -985,20 +1045,25 @@
               width: 100%;
               flex-direction: column;
             }
-            .links{
+            .links ul{
                 margin: 0;
                 padding: 0;
             }
-            .links a{ width: 100%;
+            .links ul li{ 
+            width: 100%;
             height: 15px;
             text-align: center;
             padding: 25px; 
             margin: 0;
             border-bottom:solid 1px orange;
             }
-           .links a:hover{
+           .links ul li:hover{
             color: black;
             background-color: orange;
+            }
+            .links ul li ul {
+            margin: 0 auto;
+            padding: 0;
             }
             footer{
             width: 100%;

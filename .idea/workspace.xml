@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="6ae0fed2-5f5a-41ee-844a-aa7b291b65f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo_consultoria.png" afterPath="$PROJECT_DIR$/img/logo_consultoria.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/precios.html" afterPath="$PROJECT_DIR$/precios.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FormHandler.php" afterPath="$PROJECT_DIR$/src/FormHandler.php" />
     </list>
+=======
+    <list default="true" id="6ae0fed2-5f5a-41ee-844a-aa7b291b65f0" name="Default" comment="" />
+>>>>>>> f15b993d76e58c9610900bd55ef5f677a1ed49dd
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,7 +22,44 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="58" column="3" lean-forward="false" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grid.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/grid.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="222" column="0" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nuestros-servicios.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nuestros-servicios.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#h1#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> f15b993d76e58c9610900bd55ef5f677a1ed49dd
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,10 +111,13 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/legales.html" />
         <option value="$PROJECT_DIR$/quienes.html" />
-        <option value="$PROJECT_DIR$/nuestros-servicios.html" />
         <option value="$PROJECT_DIR$/css/grid.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/precios.html" />
         <option value="$PROJECT_DIR$/src/FormHandler.php" />
+=======
+        <option value="$PROJECT_DIR$/nuestros-servicios.html" />
+>>>>>>> f15b993d76e58c9610900bd55ef5f677a1ed49dd
       </list>
     </option>
   </component>
@@ -83,11 +127,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -106,6 +149,10 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+>>>>>>> f15b993d76e58c9610900bd55ef5f677a1ed49dd
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,7 +169,10 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> f15b993d76e58c9610900bd55ef5f677a1ed49dd
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,6 +276,7 @@
       <workItem from="1510838780031" duration="6000" />
       <workItem from="1510838790696" duration="9122000" />
       <workItem from="1510926030566" duration="1897000" />
+<<<<<<< HEAD
       <workItem from="1510940420012" duration="730000" />
       <workItem from="1511356983128" duration="176000" />
       <workItem from="1511357426631" duration="9000" />
@@ -250,24 +301,37 @@
       <workItem from="1511879989053" duration="24000" />
       <workItem from="1511880698549" duration="29000" />
       <workItem from="1511881520065" duration="482000" />
+=======
+      <workItem from="1511200402295" duration="283000" />
+>>>>>>> f15b993d76e58c9610900bd55ef5f677a1ed49dd
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="126543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <option name="totallyTimeSpent" value="123339000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="704" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> f15b993d76e58c9610900bd55ef5f677a1ed49dd
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -307,27 +371,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.grilla.css" />
-    <entry file="file://$USER_HOME$/Desktop/Lucas/INCAA TV/incaa-cine.ar-eaa37939cbe5/web_cinear.tv_2/src/public/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="180" column="10" lean-forward="true" selection-start-line="178" selection-start-column="10" selection-end-line="188" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Lucas/INCAA TV/incaa-cine.ar-eaa37939cbe5/web_cinear.tv_2/src/public/programacion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="200" column="76" lean-forward="false" selection-start-line="200" selection-start-column="27" selection-end-line="200" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Lucas/INCAA TV/incaa-cine.ar-eaa37939cbe5/web_cinear.tv_2/src/public/scss/components/_home_ciclos.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="29" column="4" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="84" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Lucas/INCAA TV/incaa-cine.ar-eaa37939cbe5/web_cinear.tv_2/src/public/home.html" />
+    <entry file="file://$USER_HOME$/Desktop/Lucas/INCAA TV/incaa-cine.ar-eaa37939cbe5/web_cinear.tv_2/src/public/programacion.html" />
+    <entry file="file://$USER_HOME$/Desktop/Lucas/INCAA TV/incaa-cine.ar-eaa37939cbe5/web_cinear.tv_2/src/public/scss/components/_home_ciclos.scss" />
     <entry file="file://$PROJECT_DIR$/grid2.html" />
     <entry file="file://$PROJECT_DIR$/programacion.html" />
     <entry file="file://$PROJECT_DIR$/ciclos.html" />
@@ -378,6 +424,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13028" lean-forward="false" selection-start-line="0" selection-start-column="13028" selection-end-line="0" selection-end-column="13028" />
+<<<<<<< HEAD
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="55" column="41" lean-forward="false" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+>>>>>>> f15b993d76e58c9610900bd55ef5f677a1ed49dd
         </state>
       </provider>
     </entry>
@@ -399,6 +455,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="53" column="47" lean-forward="true" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+<<<<<<< HEAD
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/precios.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+>>>>>>> f15b993d76e58c9610900bd55ef5f677a1ed49dd
         </state>
       </provider>
     </entry>
@@ -416,8 +482,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuestros-servicios.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2567">
           <caret line="151" column="18" lean-forward="false" selection-start-line="151" selection-start-column="18" selection-end-line="151" selection-end-column="18" />
         </state>
@@ -434,11 +501,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+=======
+        <state relative-caret-position="870">
+          <caret line="58" column="3" lean-forward="false" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+          <folding />
+>>>>>>> f15b993d76e58c9610900bd55ef5f677a1ed49dd
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/grid.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="17">
           <caret line="252" column="0" lean-forward="false" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
         </state>
@@ -455,10 +528,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="26" />
+=======
+        <state relative-caret-position="0">
+          <caret line="222" column="0" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+>>>>>>> f15b993d76e58c9610900bd55ef5f677a1ed49dd
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/FormHandler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -472,6 +550,15 @@
         <state relative-caret-position="204">
           <caret line="129" column="76" lean-forward="false" selection-start-line="129" selection-start-column="76" selection-end-line="129" selection-end-column="76" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/nuestros-servicios.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#h1#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+>>>>>>> f15b993d76e58c9610900bd55ef5f677a1ed49dd
         </state>
       </provider>
     </entry>

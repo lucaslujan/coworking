@@ -387,6 +387,11 @@
           padding: 50px;
         }
 
+        #video{
+            display: flex;
+            width: 70%;
+            margin: 50px auto;
+        }
          
          /* Servicios */
         .servicios{

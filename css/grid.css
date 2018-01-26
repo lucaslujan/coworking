@@ -806,14 +806,14 @@
          color: grey;
          margin-bottom: 20px;}
 
-        .fa.fa-facebook, .fa.fa-linkedin, .fa.fa-twitter{
-              color: black;
-              font-size: 23px;
+        .fa.fa-facebook, .fa.fa-linkedin, .fa.fa-twitter, .fa.fa-instagram, .fa.fa-youtube{
+            color: black;
+            font-size: 23px;
 
-          }
-        .fa.fa-facebook:hover, .fa.fa-linkedin:hover, .fa.fa-twitter:hover{
-              color: #f07622;
-              font-size: 23px;
+        }
+        .fa.fa-facebook:hover, .fa.fa-linkedin:hover, .fa.fa-twitter:hover , .fa.fa-instagram:hover , .fa.fa-youtube:hover {
+            color: #f07622;
+            font-size: 23px;
         }
         .fa.fa-check{ color: green; font-size: 25px; }
 

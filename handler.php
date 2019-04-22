@@ -20,7 +20,6 @@ $validator->field('message')->maxLength(6000);
 
 
 
-
 $pp->sendEmailTo('info@coworkingsalta.com'); // ← Your email here
 
 echo $pp->process($_POST);

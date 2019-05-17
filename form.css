@@ -53,6 +53,13 @@
 	background-repeat: no-repeat;
 }
 
+.montform  #number{
+	background-image: url(img/phone.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
 .montform  #name:focus{
 	background-image: url(img/user.svg);
 	background-size: 30px 30px;

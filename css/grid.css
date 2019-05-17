@@ -79,9 +79,9 @@
             flex-direction: row;
             }
         .logo{
-            width: 280px;
+            width: 200px;
             height: auto;
-            margin: 50px 0 20px 30px;}
+            margin: 70px 0 20px 30px;}
 
          .links ul{
              display: flex;
@@ -392,6 +392,11 @@
             width: 70%;
             margin: 50px auto;
         }
+        #videospot{
+            display: flex;
+            width: 90%;
+            margin: 0 auto;
+        }
          
          /* Servicios */
         .servicios{
@@ -547,29 +552,22 @@
         /*SPECIAL COLORING*/
         /*----------------*/
 
+        .card:nth-child(n) button {
+          background-color:#EF7521;
+        }
+
         .card:nth-child(3) .card-info span {
             color:#EF7521;
         }
 
-        .card:nth-child(3) button {
-          background-color:#EF7521;
-        }
-
-        .card:nth-child(2) .card-info span {
+        .card:nth-child(4) .card-info span {
             color:#EF7521;
-        }
-
-        .card:nth-child(2) button {
-          background-color:#EF7521;
         }
 
         .card:nth-child(1) .card-info span {
           color: #000000;
         }
 
-        .card:nth-child(1) button {
-          background-color:#EF7521;
-        }
 
         /*----------------*/
         /*---  BUTTON  --*/
@@ -578,6 +576,7 @@
         button {
           width: 100%;
           margin-top: 10px;
+          padding: 10px;
           border-radius: 5px;
           border: none;
           outline: none;
@@ -821,81 +820,6 @@
 
          .fa.fa-circle{ font-size: 15px; color: #EF7521; }
 
-        /* Formulario Contacto*/
-
-        form {
-            padding: 0 10%;
-        }
-        form section {
-            width: calc(50% - 40px);
-            padding: 20px;
-            background: #8ed294;
-            margin: 20px;
-            border-radius: 5px;
-        }
-        form section.left {
-            float: left;
-        }
-        form section.right {
-            float: right;
-        }
-        form section .input-container {
-            padding: 10px;
-        }
-        form section .input-container label {
-            display: block;
-            margin-bottom: 4px;
-            color: white;
-            font-size: 16px;
-            text-shadow: 0px 2px 1px #65ad6b;
-            font-family: 'Quicksand', sans-serif;
-        }
-        form section .input-container input,
-        form section .input-container textarea {
-            width: 100%;
-            padding: 5px 10px;
-            height: 40px;
-            border-radius: 5px;
-            border: none;
-            background: #d7ffdb;
-            box-shadow: 0 2px 0px #77bd7d;
-            font-family: 'Quicksand', sans-serif;
-            font-size: 16px;
-            color: #757575;
-        }
-        form section .input-container input:focus,
-        form section .input-container textarea:focus {
-            outline: none;
-            background: white;
-        }
-        form section .input-container textarea {
-            height: 122px;
-            padding: 15px 10px;
-            resize: none;
-        }
-        form .send-container {
-            float: right;
-            width: 100%;
-            text-align: right;
-            margin-right: 20px;
-        }
-        form .send-container input {
-            background: #77bd7d;
-            border: none;
-            color: white;
-            padding: 15px 30px;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        form .send-container input:hover {
-            background: #8ed294;
-        }
-        form:after {
-            content: "";
-            display: block;
-            clear: both;
-        }
 
         /* prueba imagen*/
         .hiddenimg {
@@ -944,6 +868,115 @@
             display: block;
         }
 
+
+        /* ----------- My Form ----------- */
+        .myform{
+            margin:0 auto;
+            width:400px;
+            padding:14px;
+
+        }
+        .spacer{clear:both; height:1px;}
+        /* ----------- basic ----------- */
+        #basic{
+            border:solid 2px #DEDEDE;
+        }
+        #basic h1 {
+            font-size:14px;
+            font-weight:bold;
+            margin-bottom:8px;
+        }
+        #basic p{
+            font-size:11px;
+            color:#666666;
+            margin-bottom:20px;
+            border-bottom:solid 1px #dedede;
+            padding-bottom:10px;
+        }
+        #basic label{
+            display:block;
+            font-weight:bold;
+            text-align:right;
+            width:140px;
+            float:left;
+        }
+        #basic .small{
+            color:#666666;
+            display:block;
+            font-size:11px;
+            font-weight:normal;
+            text-align:right;
+            width:140px;
+        }
+        #basic input{
+            float:left;
+            width:200px;
+            margin:2px 0 30px 10px;
+        }
+        #basic button{
+            clear:both;
+            margin-left:150px;
+            background:#EF7521;
+            color:#FFFFFF;
+            border:solid 1px #666666;
+            font-size:11px;
+            font-weight:bold;
+            padding:4px 6px;
+        }
+
+
+        /* ----------- stylized ----------- */
+        #stylized{
+            background: #d8d8d8;
+            border-radius: 5px;
+
+        }
+        #stylized h1 {
+            font-size:14px;
+            font-weight:bold;
+            margin-bottom:8px;
+        }
+        #stylized p{
+            font-size:11px;
+            color:#666666;
+            margin-bottom:20px;
+            padding-bottom:10px;
+        }
+        #stylized label{
+            display:block;
+            font-weight:bold;
+            text-align:right;
+            width:140px;
+            float:left;
+        }
+        #stylized .small{
+            color:#666666;
+            display:block;
+            font-size:11px;
+            font-weight:normal;
+            text-align:right;
+            width:140px;
+        }
+        #stylized input{
+            float:left;
+            font-size:12px;
+            padding:4px 2px;
+            border:solid 1px #aacfe4;
+            width:200px;
+            margin:2px 0 20px 10px;
+        }
+        #stylized button{
+            clear:both;
+            margin-left:160px;
+            width:125px;
+            height:31px;
+            background:#444;
+            text-align:center;
+            line-height:31px;
+            color:#FFFFFF;
+            font-size:11px;
+            font-weight:bold;
+        }
 
         /* Media queries */
         @media (max-width: 768px) {
@@ -1015,10 +1048,9 @@
                 font-size: 7px;
             }
             .logo{
-             width: 75%;
-             height:auto;
-             padding-top: 45px;
-             margin: 0;
+             width: 70%;
+             padding: 20px;
+             margin: 40px 50px;
             }
             .header{
               width: 100%;

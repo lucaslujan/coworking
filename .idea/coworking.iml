@@ -11,5 +11,6 @@
     <orderEntry type="library" name="ebc2a44ead" level="application" />
     <orderEntry type="library" name="lightwidget" level="application" />
     <orderEntry type="library" name="platform" level="application" />
+    <orderEntry type="library" name="widget" level="application" />
   </component>
 </module>
